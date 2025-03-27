@@ -5,7 +5,7 @@ public class Chambre {
     private int tarif;
     private boolean disponible;
 
-public Chambre(int num, int tarif, boolean disponible) {
+public Chambre(int num, int tarif) {
         this.num = num;
         this.tarif = tarif;
         this.disponible = disponible;
