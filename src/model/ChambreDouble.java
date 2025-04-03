@@ -1,22 +1,12 @@
 package model;
 
-public class ChambreDouble extends Chambre{
+public class ChambreDouble extends Chambre {
 
     private boolean litSupplementaire;
 
-    public ChambreDouble(int numero, int etage, boolean litSupplementaire) {
-        super(numero, etage);
+    public ChambreDouble(int num, int tarif, boolean disponible, boolean litSupplementaire) {
+        super(num, tarif, disponible);
         this.litSupplementaire = litSupplementaire;
     }
-
-
-    public boolean isLitSupplementaire() {
-        return litSupplementaire;
-    }
-
-    public void setLitSupplementaire(boolean litSupplementaire) {
-        this.litSupplementaire = litSupplementaire;
-    }
-
 
 }
